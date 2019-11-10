@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="HappyTravel.Views.AddWindows.AddTicketView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HappyTravel.Views.AddWindows"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Column="0" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center">Number of ticket :</Label>
+        <TextBox Grid.Column="1" Grid.Row="0" VerticalAlignment="Center" Margin="15" Text="{Binding NumberOfTicket, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <Label Grid.Column="0" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">Seat :</Label>
+        <TextBox Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Margin="15" Text="{Binding Seat, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <Label Grid.Column="0" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center">Type of seat :</Label>
+        <TextBox Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" Margin="15" Text="{Binding TypeOfSeat, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <Label Grid.Column="0" Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center">Car :</Label>
+        <TextBox Grid.Column="1" Grid.Row="3" VerticalAlignment="Center" Margin="15" Text="{Binding Car, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <Label Grid.Column="0" Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Center">Row :</Label>
+        <TextBox Grid.Column="1" Grid.Row="4" VerticalAlignment="Center" Margin="15" Text="{Binding Row, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <Button Grid.Row="5" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="15" Content="Ok" Command="{Binding OkCommand}"/>
+        <Button Grid.Row="5" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="15" Content="Cancel" Command="{Binding CancelCommand}"/>
+    </Grid>
+</UserControl>

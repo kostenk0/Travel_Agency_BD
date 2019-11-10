@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="052299e0-8b3c-44e2-8fa1-144a3a5ac2ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/HappyTravel/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/HappyTravel/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/HappyTravel/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/HappyTravel/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/HappyTravel/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/HappyTravel/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HappyTravel/DataStorage/IDataStorage.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding>
+                <marker date="1560686490880" expanded="false" signature="6:179" ph="..." />
+                <marker date="1560686490880" expanded="true" signature="214:1063" ph="{...}" />
+                <marker date="1560686490880" expanded="true" signature="252:1061" ph="{...}" />
+                <marker date="1560686490880" expanded="true" signature="631:709" ph="/* bool UserExists(string login); ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HappyTravel/DataStorage/SerializedDataStorage.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="112" column="46" lean-forward="true" selection-start-line="112" selection-start-column="46" selection-end-line="112" selection-end-column="46" />
+              <folding>
+                <marker date="1560773790239" expanded="false" signature="6:197" ph="..." />
+                <marker date="1560773790239" expanded="true" signature="232:11043" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="290:11041" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="730:1596" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="1175:1457" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="1489:1586" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="1654:1703" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="1744:2746" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="1910:2736" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="2000:2721" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="2043:2703" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="2808:2859" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="2901:3849" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="3001:3077" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="3094:3226" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="3333:3839" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="3423:3824" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="3466:3806" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="3902:3948" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="3986:6194" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="4202:5678" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="4292:5664" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="4335:5645" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="4861:4979" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="5021:5125" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="5198:5394" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="5423:5622" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="5739:6184" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="5811:6170" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="5880:6152" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="6033:6130" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="6243:6300" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="6346:6400" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="6452:6510" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="6550:6599" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="6653:6700" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="6743:6795" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="6834:7836" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="6998:7826" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="7088:7812" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="7131:7793" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="7892:7940" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="7980:8779" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="8145:8769" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="8235:8755" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="8278:8736" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="8837:8886" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="8927:9571" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="9093:9561" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="9183:9547" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="9226:9528" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="9643:9699" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="9747:10643" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="9921:10633" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="10011:10619" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="10054:10601" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="10683:10733" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="10776:10829" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="10875:10929" ph="{...}" />
+                <marker date="1560773790239" expanded="true" signature="10978:11035" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HappyTravel/Tools/Managers/ConnectionManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <folding>
+                <marker date="1560419775160" expanded="false" signature="6:145" ph="..." />
+                <marker date="1560419775160" expanded="true" signature="183:718" ph="{...}" />
+                <marker date="1560419775160" expanded="true" signature="229:716" ph="{...}" />
+                <marker date="1560419775160" expanded="true" signature="406:710" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/HappyTravel/Tools/Managers/ConnectionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HappyTravel/DataStorage/IDataStorage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HappyTravel/DataStorage/SerializedDataStorage.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/HappyTravel/DataStorage/SerializedDataStorage.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.HappyTravel/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.HappyTravel/.idea/indexLayout.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="HappyTravel" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="HappyTravel" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="HappyTravel" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="HappyTravel" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="HappyTravel" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DataStorage" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="HappyTravel" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="HappyTravel" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tools" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="HappyTravel" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="HappyTravel" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tools" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Managers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.CSharpInteractiveConfiguration" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="052299e0-8b3c-44e2-8fa1-144a3a5ac2ca" name="Default Changelist" comment="" />
+      <created>1564305835360</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564305835360</updated>
+      <workItem from="1564305840076" duration="1437000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1437000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HappyTravel/DataStorage/IDataStorage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <marker date="1560686490880" expanded="false" signature="6:179" ph="..." />
+            <marker date="1560686490880" expanded="true" signature="214:1063" ph="{...}" />
+            <marker date="1560686490880" expanded="true" signature="252:1061" ph="{...}" />
+            <marker date="1560686490880" expanded="true" signature="631:709" ph="/* bool UserExists(string login); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HappyTravel/DataStorage/SerializedDataStorage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="112" column="46" lean-forward="true" selection-start-line="112" selection-start-column="46" selection-end-line="112" selection-end-column="46" />
+          <folding>
+            <marker date="1560773790239" expanded="false" signature="6:197" ph="..." />
+            <marker date="1560773790239" expanded="true" signature="232:11043" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="290:11041" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="730:1596" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="1175:1457" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="1489:1586" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="1654:1703" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="1744:2746" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="1910:2736" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="2000:2721" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="2043:2703" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="2808:2859" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="2901:3849" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="3001:3077" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="3094:3226" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="3333:3839" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="3423:3824" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="3466:3806" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="3902:3948" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="3986:6194" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="4202:5678" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="4292:5664" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="4335:5645" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="4861:4979" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="5021:5125" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="5198:5394" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="5423:5622" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="5739:6184" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="5811:6170" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="5880:6152" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="6033:6130" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="6243:6300" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="6346:6400" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="6452:6510" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="6550:6599" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="6653:6700" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="6743:6795" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="6834:7836" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="6998:7826" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="7088:7812" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="7131:7793" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="7892:7940" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="7980:8779" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="8145:8769" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="8235:8755" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="8278:8736" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="8837:8886" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="8927:9571" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="9093:9561" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="9183:9547" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="9226:9528" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="9643:9699" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="9747:10643" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="9921:10633" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="10011:10619" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="10054:10601" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="10683:10733" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="10776:10829" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="10875:10929" ph="{...}" />
+            <marker date="1560773790239" expanded="true" signature="10978:11035" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HappyTravel/Tools/Managers/ConnectionManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <marker date="1560419775160" expanded="false" signature="6:145" ph="..." />
+            <marker date="1560419775160" expanded="true" signature="183:718" ph="{...}" />
+            <marker date="1560419775160" expanded="true" signature="229:716" ph="{...}" />
+            <marker date="1560419775160" expanded="true" signature="406:710" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Vladislav\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Vladislav\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_HappyTravel.1982356796.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Vladislav\Desktop\DateBase\DateBase-master" t="IncludeFlat">
+      <e p="HappyTravel" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DataStorage" t="Include">
+          <e p="IDataStorage.cs" t="Include" />
+          <e p="SerializedDataStorage.cs" t="Include" />
+        </e>
+        <e p="HappyTravel.csproj" t="IncludeRecursive" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="Client.cs" t="Include" />
+          <e p="ContactPerson.cs" t="Include" />
+          <e p="Contract.cs" t="Include" />
+          <e p="Hotel.cs" t="Include" />
+          <e p="Include.cs" t="Include" />
+          <e p="Pass.cs" t="Include" />
+          <e p="PhoneNumber.cs" t="Include" />
+          <e p="Resort.cs" t="Include" />
+          <e p="Ticket.cs" t="Include" />
+          <e p="Trip.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="Annotations.cs" t="Include" />
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Tools" t="Include">
+          <e p="BaseViewModel.cs" t="Include" />
+          <e p="Managers" t="Include">
+            <e p="ConnectionManager.cs" t="Include" />
+            <e p="NavigationManager.cs" t="Include" />
+            <e p="StationManager.cs" t="Include" />
+          </e>
+          <e p="Navigation" t="Include">
+            <e p="BaseNavigationModel.cs" t="Include" />
+            <e p="IContentOwner.cs" t="Include" />
+            <e p="INavigatable.cs" t="Include" />
+            <e p="INavigationModel.cs" t="Include" />
+            <e p="InitializationNavigationModel.cs" t="Include" />
+          </e>
+          <e p="RelayCommand.cs" t="Include" />
+        </e>
+        <e p="ViewModels" t="Include">
+          <e p="AddViewsModels" t="Include">
+            <e p="AddClientViewModel.cs" t="Include" />
+            <e p="AddContactPersonViewModel.cs" t="Include" />
+            <e p="AddContractViewModel.cs" t="Include" />
+            <e p="AddPassesHotelViewModel.cs" t="Include" />
+            <e p="AddPassesTripViewModel.cs" t="Include" />
+            <e p="AddPassViewModel.cs" t="Include" />
+            <e p="AddPhoneViewModel.cs" t="Include" />
+            <e p="AddResortViewModel.cs" t="Include" />
+            <e p="AddTicketViewModel.cs" t="Include" />
+            <e p="AddTripViewModel.cs" t="Include" />
+          </e>
+          <e p="Authentication" t="Include">
+            <e p="SignInViewModel.cs" t="Include" />
+            <e p="SignUpViewModel.cs" t="Include" />
+          </e>
+          <e p="ClientPhonesViewModel.cs" t="Include" />
+          <e p="ClientsContractsViewModel.cs" t="Include" />
+          <e p="ClientsViewModel.cs" t="Include" />
+          <e p="ContactPersonViewModelcs.cs" t="Include" />
+          <e p="ContractViewModel.cs" t="Include" />
+          <e p="HotelDescribeViewModel.cs" t="Include" />
+          <e p="HotelViewModel.cs" t="Include" />
+          <e p="MainViewManagerModel.cs" t="Include" />
+          <e p="MainWindowViewModel.cs" t="Include" />
+          <e p="PassesHotelsViewModel.cs" t="Include" />
+          <e p="PassesTripsViewModel.cs" t="Include" />
+          <e p="PassViewModel.cs" t="Include" />
+          <e p="ResortContactPersonsViewModel.cs" t="Include" />
+          <e p="ResortViewModel.cs" t="Include" />
+          <e p="TripTicketsViewModel.cs" t="Include" />
+          <e p="TripViewModel.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="AddWindows" t="Include">
+            <e p="AddClientView.xaml" t="Include" />
+            <e p="AddClientView.xaml.cs" t="Include" />
+            <e p="AddContactPersonView.xaml" t="Include" />
+            <e p="AddContactPersonView.xaml.cs" t="Include" />
+            <e p="AddContractView.xaml" t="Include" />
+            <e p="AddContractView.xaml.cs" t="Include" />
+            <e p="AddPass.xaml" t="Include" />
+            <e p="AddPass.xaml.cs" t="Include" />
+            <e p="AddPassesHotelView.xaml" t="Include" />
+            <e p="AddPassesHotelView.xaml.cs" t="Include" />
+            <e p="AddPassesTripView.xaml" t="Include" />
+            <e p="AddPassesTripView.xaml.cs" t="Include" />
+            <e p="AddPhoneView.xaml" t="Include" />
+            <e p="AddPhoneView.xaml.cs" t="Include" />
+            <e p="AddResortView.xaml" t="Include" />
+            <e p="AddResortView.xaml.cs" t="Include" />
+            <e p="AddTicketView.xaml" t="Include" />
+            <e p="AddTicketView.xaml.cs" t="Include" />
+            <e p="AddTripView.xaml" t="Include" />
+            <e p="AddTripView.xaml.cs" t="Include" />
+          </e>
+          <e p="Authentication" t="Include">
+            <e p="SignInView.xaml" t="Include" />
+            <e p="SignInView.xaml.cs" t="Include" />
+            <e p="SignUpView.xaml" t="Include" />
+            <e p="SignUpView.xaml.cs" t="Include" />
+          </e>
+          <e p="ClientsContractsView.xaml" t="Include" />
+          <e p="ClientsContractsView.xaml.cs" t="Include" />
+          <e p="ClientsPhonesView.xaml" t="Include" />
+          <e p="ClientsPhonesView.xaml.cs" t="Include" />
+          <e p="ClientsView.xaml" t="Include" />
+          <e p="ClientsView.xaml.cs" t="Include" />
+          <e p="ContactPersonView.xaml" t="Include" />
+          <e p="ContactPersonView.xaml.cs" t="Include" />
+          <e p="ContractView.xaml" t="Include" />
+          <e p="ContractView.xaml.cs" t="Include" />
+          <e p="HotelDescribeView.xaml" t="Include" />
+          <e p="HotelDescribeView.xaml.cs" t="Include" />
+          <e p="HotelView.xaml" t="Include" />
+          <e p="HotelView.xaml.cs" t="Include" />
+          <e p="IncludeView.xaml" t="Include" />
+          <e p="IncludeView.xaml.cs" t="Include" />
+          <e p="MainViewManager.xaml" t="Include" />
+          <e p="MainViewManager.xaml.cs" t="Include" />
+          <e p="PassesHotelsView.xaml" t="Include" />
+          <e p="PassesHotelsView.xaml.cs" t="Include" />
+          <e p="PassesTripsView.xaml" t="Include" />
+          <e p="PassesTripsView.xaml.cs" t="Include" />
+          <e p="PassView.xaml" t="Include" />
+          <e p="PassView.xaml.cs" t="Include" />
+          <e p="PhoneNumberView.xaml" t="Include" />
+          <e p="PhoneNumberView.xaml.cs" t="Include" />
+          <e p="ResortContactPersonsView.xaml" t="Include" />
+          <e p="ResortContactPersonsView.xaml.cs" t="Include" />
+          <e p="ResortView.xaml" t="Include" />
+          <e p="ResortView.xaml.cs" t="Include" />
+          <e p="TicketView.xaml" t="Include" />
+          <e p="TicketView.xaml.cs" t="Include" />
+          <e p="TripTicketsView.xaml" t="Include" />
+          <e p="TripTicketsView.xaml.cs" t="Include" />
+          <e p="TripView.xaml" t="Include" />
+          <e p="TripView.xaml.cs" t="Include" />
+        </e>
+      </e>
+      <e p="HappyTravel.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

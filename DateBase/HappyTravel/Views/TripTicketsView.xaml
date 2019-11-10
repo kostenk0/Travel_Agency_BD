@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="HappyTravel.Views.TripTicketsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HappyTravel.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="450">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <DataGrid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Grid.RowSpan="3" ItemsSource="{Binding ViewSource.View}" Name="myGrid" IsReadOnly="True"
+                      SelectedItem="{Binding SelectedTicket, Mode=TwoWay}"
+                      AutoGenerateColumns="False">
+            <DataGrid.Resources>
+                <Style TargetType="DataGridCell">
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Background" Value="Red" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.Resources>
+
+            <DataGrid.ContextMenu>
+                <ContextMenu IsEnabled="{Binding IsControlEnabled, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}">
+                    <MenuItem Command="{Binding RemoveCommand}" Header="Remove"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Number of ticket" Binding="{Binding NumberOfTicket}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Seat" Binding="{Binding Seat}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Type of seat" Binding="{Binding TypeOfSeat}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Car" Binding="{Binding Car}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Row" Binding="{Binding Row}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Pass number" Binding="{Binding PassNumber}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Trip number" Binding="{Binding TripNumber}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Grid.Row="3" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="10" Content="Back" Command="{Binding CloseCommand}" Visibility="{Binding AdminButtons}" Height="25" Grid.RowSpan="2"/>
+        <Button Grid.Row="3" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="10" Content="Add" Command="{Binding AddCommand}" Visibility="{Binding AdminButtons}" Height="25" Grid.RowSpan="2"/>
+        <Button Grid.Row="3" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Center" Margin="10" Content="Back" Command="{Binding CloseCommand}" Visibility="{Binding UserButtons}" Height="25" Grid.RowSpan="2"/>
+    </Grid>
+</UserControl>
